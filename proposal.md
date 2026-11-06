@@ -1,40 +1,42 @@
+
 # Community Software Analysis Proposal
 Please edit this file and push to your repository.
 
-## Software: *NAME_OF_PACKAGE_HERE*
+## Software: *Roots.jl*
 
-*Write a paragraph describing what the software does and who its
-primary audience is.*
+The software is primarily used for finding zeros of continuous scalar functions of a single real variable using floating-point numbers. Essentially, what that means is solving f(x) = 0 for x while adjusting for floating-point idiosyncrasies. Additionally, the find_zero function provides various different algorithms such as bisection-like methods, several derivative-free methods, and methods that require one or more derivatives.
+
+The primary audience is researchers, students, scientists, and developers who use Julia and need to solve numerical equations. This software can be useful for people working with numerical computing, mathematics, and scientific computing.
 
 ### Stats
 
 | Description | Your answer |
 |---------|-----------|
-| Repository URL |    |
-| Main/documentation website |    |
-| Year project was started |   |
-| Number of contributors in the past year | `git shortlog -se --since=2025-11-01` may be useful |
-| Number of contributors in the lifetime of the project |   |
-| Number of distinct affiliations | 1, 2-5, 5-10, >10 |
-| Where do development discussions take place? | e.g., GitHub/GitLab issues, mailing list, Slack, etc.  |
-| Typical number of emails/comments per week? |   |
-| Typical number of commits per week? |  |
-| Typical commit size | `git log --shortstat` may be useful |
-| How does the project accept contributions? | e.g., pull requests, patches on mailing lists   |
-| Does the project have an automated test suite? | yes/no |
-| Does the project use continuous integration? | yes/no |
-| Does the project have an AI contribution policy? | link |
-| Are any legal/licensing steps required to contribute? | no or explain below |
+| Repository URL | https://github.com/JuliaMath/Roots.jl |
+| Main/documentation website | https://juliamath.github.io/Roots.jl/stable/ |
+| Year project was started | 2013 (verify from repository history) |
+| Number of contributors in the past year | Needs verification using git shortlog |
+| Number of contributors in the lifetime of the project | 55 contributors (previously observed) |
+| Number of distinct affiliations | 5-10 (estimate, needs verification) |
+| Where do development discussions take place? | GitHub issues and pull requests |
+| Typical number of emails/comments per week? | Needs verification from recent GitHub discussions |
+| Typical number of commits per week? | Around 3 to 4 commits per week (estimate) |
+| Typical commit size | Needs verification using git log --shortstat |
+| How does the project accept contributions? | Through GitHub pull requests and issues |
+| Does the project have an automated test suite? | Yes, the project has automated tests |
+| Does the project use continuous integration? | Yes, GitHub Actions |
+| Does the project have an AI contribution policy? | No specific policy found, needs verification |
+| Are any legal/licensing steps required to contribute? | The project uses the MIT license. No separate contributor agreement was identified, but this should be verified |
 
 ### Install and run
 
-Check the following boxes when complete or add a note below if you
-encountered a problem.
+Check the following boxes when complete or add a note below if you encountered a problem.
 
-- [ ] I have installed the software
-- [ ] I have run at least one example
-- [ ] I have run the test suite
-- [ ] The test suite passes
+- [Y] I have installed the software
+- [Y] I have run at least one example
+- [Y ] I have run the test suite
+- [Y] The test suite passes
+
 
 ### Notes/concerns/risks
 
